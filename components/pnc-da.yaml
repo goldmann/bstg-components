@@ -3,12 +3,11 @@ kind: Component
 metadata:
   name: pnc-da
   description: Dependency Analyser
+  annotations:
+    backstage.io/source-location: url:https://github.com/project-ncl/dependency-analysis
   tags:
     - java
-  links:
-    - url: https://github.com/project-ncl/dependency-analysis
-      title: Source
-      icon: source
+
 spec:
   type: service
   lifecycle: production

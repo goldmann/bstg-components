@@ -3,12 +3,10 @@ kind: Component
 metadata:
   name: pnc-repour
   description: Repour
+  annotations:
+    backstage.io/source-location: url:https://github.com/project-ncl/repour
   tags:
     - python
-  links:
-    - url: https://github.com/project-ncl/repour
-      title: Source
-      icon: source
 spec:
   type: service
   lifecycle: production
