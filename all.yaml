@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: everything
+  description: All entities
+spec:
+  targets:
+    - ./all-groups.yaml
+    - ./all-components.yaml

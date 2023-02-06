@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: groups
+  description: All groups
+spec:
+  targets:
+    - ./groups/prod-core.yaml
+    - ./groups/pnc.yaml

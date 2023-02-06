@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: pnc
+  description: PNC team
+spec:
+  type: team
+  profile:
+    displayName: PNC team
+    email: pnc@redhat.com
+  parent: prod-core
+  members: [jdoe]
