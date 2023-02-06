@@ -3,6 +3,10 @@ kind: API
 metadata:
   name: pnc-api
   description: PNC API
+  links:
+    - url: http://openapi-newcastle-devel.psi.redhat.com/?urls.primaryName=orch
+      title: Swagger
+      icon: dashboard
 spec:
   type: openapi
   lifecycle: production
