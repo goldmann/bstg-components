@@ -9,4 +9,5 @@ spec:
     displayName: PNC team
     email: pnc@redhat.com
   parent: prod-core
+  children: []
   members: [jdoe]
