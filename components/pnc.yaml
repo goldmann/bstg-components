@@ -1,6 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/goldmann/bkstg-docs/tree/main
   name: pnc-orch
   description: Project Newcastle Orchestrator
   tags:
