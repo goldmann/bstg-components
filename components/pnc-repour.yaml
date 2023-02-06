@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pnc-repour
+  description: Repour
+  tags:
+    - python
+  links:
+    - url: https://github.com/project-ncl/repour
+      title: Source
+      icon: source
+spec:
+  type: service
+  lifecycle: production
+  owner: pnc-team
+  system: pnc

@@ -5,4 +5,5 @@ metadata:
   description: All components
 spec:
   targets:
-    - ./components/pnc.yaml
+    - ./components/pnc-orch.yaml
+    - ./components/pnc-repour.yaml
