@@ -5,5 +5,6 @@ metadata:
   description: All entities
 spec:
   targets:
-    - ./all-groups.yaml
     - ./all-components.yaml
+    - ./all-apis.yaml
+    - ./all-systems.yaml

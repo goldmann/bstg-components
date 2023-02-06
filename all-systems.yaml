@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: systems
+  description: All stystems
+spec:
+  targets:
+    - ./systems/pnc.yaml

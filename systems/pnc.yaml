@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: pnc
+  description: Project Newcastle
+spec:
+  owner: pnc-team

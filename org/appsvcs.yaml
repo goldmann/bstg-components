@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: application-services
+  description: Application Services
+spec:
+  type: organization
+  profile:
+    displayName: Application Services
+    email: appsvcs@redhat.com
+  children: [prod-core-team]

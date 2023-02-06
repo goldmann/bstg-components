@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: redhat
+  description: Red Hat
+spec:
+  targets:
+    - ./appsvcs.yaml
+    - ./prod-core-team.yaml
+    - ./pnc-team.yaml

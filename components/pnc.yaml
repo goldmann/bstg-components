@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: pnc
-  description: Project Newcastle
+  name: pnc-orch
+  description: Project Newcastle Orchestrator
   tags:
     - java
     - data
@@ -13,4 +13,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: pnc
+  owner: pnc-team
+  providesApis:
+    - pnc-api
+  system: pnc

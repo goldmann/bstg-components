@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: prod-core
+  name: prod-core-team
   description: Productization Core team
 spec:
   type: team
   profile:
-    displayName: Prod Core
+    displayName: Prod Core team
     email: prod-core@redhat.com
-  children: [pnc]
-  members: [jdoe]
+  parent: application-services
+  children: [pnc-team]
