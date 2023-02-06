@@ -3,6 +3,8 @@ kind: Component
 metadata:
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/goldmann/bkstg-docs/tree/main
+    backstage.io/source-location: url:https://github.com/project-ncl/pnc
+    github.com/project-slug: project-ncl/pnc
   name: pnc-orch
   description: Project Newcastle Orchestrator
   tags:
