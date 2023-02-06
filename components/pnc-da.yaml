@@ -4,7 +4,7 @@ metadata:
   name: pnc-da
   description: Dependency Analyser
   tags:
-    - python
+    - java
   links:
     - url: https://github.com/project-ncl/dependency-analysis
       title: Source
