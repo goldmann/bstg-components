@@ -7,7 +7,6 @@ metadata:
   description: Project Newcastle Orchestrator
   tags:
     - java
-    - data
   links:
     - url: https://orch.psi.redhat.com/pnc-web/
       title: Dashboard

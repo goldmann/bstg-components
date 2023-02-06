@@ -7,3 +7,4 @@ spec:
   targets:
     - ./components/pnc-orch.yaml
     - ./components/pnc-repour.yaml
+    - ./components/pnc-da.yaml
