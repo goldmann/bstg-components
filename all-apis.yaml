@@ -5,4 +5,4 @@ metadata:
   description: All APIs
 spec:
   targets:
-    - ./systems/pnc.yaml
+    - ./apis/pnc.yaml
