@@ -3,5 +3,9 @@ kind: System
 metadata:
   name: pnc
   description: Project Newcastle
+  links:
+    - url: https://orch.psi.redhat.com/pnc-web/
+      title: PNC UI
+      icon: dashboard
 spec:
   owner: pnc-team
